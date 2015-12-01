@@ -61,6 +61,12 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer -y
 
 #
+# Vim
+#
+git clone https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+
+#
 # Spark configuration
 # http://spark.apache.org/downloads.html
 #
